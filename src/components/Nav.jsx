@@ -15,10 +15,11 @@ function Nav() {
         <input type="search" placeholder="Search Items" />
       </div>
       <div>
-        <img src="" alt="profile-icon" />
-        <img src="" alt="favourite-icon" />
-        <img src="" alt="cart-icon" />
+        <img src="images/profile-icon.png" alt="profile-icon" />
+        <img src="images/favourite.svg" alt="favourite-icon" />
+        <img src="images/profile-icon.png" alt="cart-icon" />
       </div>
+      <button>Contact us</button>
     </nav>
   );
 }
