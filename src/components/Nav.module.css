@@ -39,7 +39,7 @@
   outline: 0;
   border: 0;
   padding: 1.2rem 1rem;
-  font-size: inherit;
+  font-size: 1.4rem;
   font-weight: 500;
   font-family: inherit;
 }
@@ -82,8 +82,8 @@
 
 .nav img {
   display: block;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .nav button {
