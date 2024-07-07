@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  list-style: none;
+  border-bottom: 2px solid var(--primary-color);
+  padding: 3rem 6rem;
+}
+
+.list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  color: unset;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.list :global(.active) {
+  background: var(--primary-color);
+}
