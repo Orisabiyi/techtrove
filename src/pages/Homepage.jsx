@@ -1,3 +1,4 @@
+import Browse from "../components/Browse";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
 
@@ -6,6 +7,7 @@ function Homepage() {
     <>
       <Nav />
       <Header />
+      <Browse />
     </>
   );
 }
