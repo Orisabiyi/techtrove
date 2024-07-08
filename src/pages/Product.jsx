@@ -1,5 +1,11 @@
+import Nav from "../components/Nav";
+
 function Product() {
-  return <div>Hello Product</div>;
+  return (
+    <div>
+      <Nav />
+    </div>
+  );
 }
 
 export default Product;
