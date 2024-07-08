@@ -9,27 +9,51 @@ function HomeProduct() {
       </div>
       <ul>
         <li>
-          <img src="images/oraimo.svg" alt="oraimo-icon" />
-          <p>Oraimo airpods</p>
-          <p># 11, 900.00</p>
+          <div>
+            <img src="images/oraimo.svg" alt="oraimo-icon" />
+          </div>
+          <h3>Oraimo airpods</h3>
+          <p className={styles.description}>
+            <span>Description</span>
+            <img src="images/like.svg" alt="like-icon" />
+          </p>
+          <p className={styles.price}># 11, 900.00</p>
           <button>Add to cart</button>
         </li>
         <li>
-          <img src="images/oraimo.svg" alt="oraimo-icon" />
-          <p>Oraimo airpods</p>
-          <p># 11, 900.00</p>
+          <div>
+            <img src="images/oraimo.svg" alt="oraimo-icon" />
+          </div>
+          <h3>Oraimo airpods</h3>
+          <p className={styles.description}>
+            <span>Description</span>
+            <img src="images/like.svg" alt="like-icon" />
+          </p>
+          <p className={styles.price}># 11, 900.00</p>
           <button>Add to cart</button>
         </li>
         <li>
-          <img src="images/oraimo.svg" alt="oraimo-icon" />
-          <p>Oraimo airpods</p>
-          <p># 11, 900.00</p>
+          <div>
+            <img src="images/oraimo.svg" alt="oraimo-icon" />
+          </div>
+          <h3>Oraimo airpods</h3>
+          <p className={styles.description}>
+            <span>Description</span>
+            <img src="images/like.svg" alt="like-icon" />
+          </p>
+          <p className={styles.price}># 11, 900.00</p>
           <button>Add to cart</button>
         </li>
         <li>
-          <img src="images/oraimo.svg" alt="oraimo-icon" />
-          <p>Oraimo airpods</p>
-          <p># 11, 900.00</p>
+          <div>
+            <img src="images/oraimo.svg" alt="oraimo-icon" />
+          </div>
+          <h3>Oraimo airpods</h3>
+          <p className={styles.description}>
+            <span>Description</span>
+            <img src="images/like.svg" alt="like-icon" />
+          </p>
+          <p className={styles.price}># 11, 900.00</p>
           <button>Add to cart</button>
         </li>
       </ul>
