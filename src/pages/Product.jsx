@@ -6,7 +6,7 @@ function Product() {
   return (
     <div>
       <Nav />
-      <div>
+      <div className={styles}>
         <ProductSidebar />
         <ProductOverview />
       </div>
