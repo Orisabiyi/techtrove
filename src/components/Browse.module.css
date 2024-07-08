@@ -1,0 +1,60 @@
+.browse {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  padding: 8rem 6rem;
+  border-top: 2px solid var(--primary-color);
+}
+
+.browse div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse h2 {
+  font-weight: 600;
+}
+
+.browse div p {
+  color: var(--primary-color);
+}
+
+.browse ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 1rem;
+
+  list-style: none;
+}
+
+.browse li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+
+  flex: 1;
+  padding: 5rem;
+  border-radius: 1rem;
+  border: 2px solid var(--primary-color);
+}
+
+.browse p {
+  font-weight: 500;
+}
+
+.browse li:hover img {
+  filter: brightness(0) invert(1);
+}
+
+.browse li:hover {
+  background: var(--primary-color);
+  transform: scale(1.03);
+  transition: all 2s;
+}
