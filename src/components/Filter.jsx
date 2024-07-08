@@ -11,10 +11,6 @@ function Filter() {
 
   return (
     <ul className={styles.list}>
-      <li>
-        <img src="images/category-menu.svg" alt="menu-icon" />
-        <span>Shop by category</span>
-      </li>
       <li onClick={toggleDropdown}>
         <NavLink to="/">
           <span>Home</span>
