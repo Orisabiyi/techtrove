@@ -3,7 +3,9 @@
   align-items: stretch;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
+
+  padding-left: 2rem;
 }
 
 .productOverview > div:nth-of-type(1) {
