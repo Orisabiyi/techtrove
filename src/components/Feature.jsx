@@ -9,9 +9,15 @@ function Feature() {
       </div>
 
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+          <img src="images/brand-vivo.svg" alt="vivo-logo" />
+        </li>
+        <li>
+          <img src="images/brand-apple.svg" alt="apple-logo" />
+        </li>
+        <li>
+          <img src="images/brand-samsung.svg" alt="samsung-logo" />
+        </li>
       </ul>
     </section>
   );
