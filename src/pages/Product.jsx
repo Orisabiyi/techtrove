@@ -5,7 +5,7 @@ import ProductSidebar from "../components/ProductSidebar";
 
 function Product() {
   return (
-    <div>
+    <section>
       <Nav />
       <div style={{ display: "flex", alignItems: "stretch" }}>
         <ProductSidebar />
@@ -14,7 +14,7 @@ function Product() {
           <ProductOverview />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
