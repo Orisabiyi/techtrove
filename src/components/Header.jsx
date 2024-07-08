@@ -1,4 +1,3 @@
-import Feature from "./Feature";
 import Filter from "./Filter";
 import Hero from "./Hero";
 
@@ -7,7 +6,6 @@ function Header() {
     <header>
       <Filter />
       <Hero />
-      <Feature />
     </header>
   );
 }
