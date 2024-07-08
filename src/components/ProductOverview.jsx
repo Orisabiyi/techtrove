@@ -3,7 +3,7 @@ import styles from "./ProductOverview.module.css";
 function ProductOverview() {
   const items = Array.from({ length: 9 }, function (_, index) {
     return (
-      <div key={index}>
+      <div key={index} className={styles.product}>
         <div>
           <img src="images/oraimo.svg" alt="oraimo-icon" />
         </div>
