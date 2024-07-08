@@ -3,10 +3,12 @@ import styles from "./SignUp.module.css";
 function SignUp() {
   return (
     <section className={styles.signup}>
-      <div>
+      <div className={styles.container}>
         <div>
           <h2>Get 25% off</h2>
-          <p>When you sign up and shop with us for the first time</p>
+          <p>
+            When you sign up and shop <br /> with us for the first time
+          </p>
 
           <form action="#" method="post">
             <input type="email" placeholder="Email" />
