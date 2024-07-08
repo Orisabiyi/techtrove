@@ -6,7 +6,7 @@ function Product() {
   return (
     <div>
       <Nav />
-      <div className={styles}>
+      <div style={{ display: "flex", alignItems: "stretch" }}>
         <ProductSidebar />
         <ProductOverview />
       </div>
