@@ -9,7 +9,7 @@ function Product() {
       <Nav />
       <div style={{ display: "flex", alignItems: "stretch" }}>
         <ProductSidebar />
-        <div style={{ padding: "2rem 6rem", flex: "1" }}>
+        <div>
           <Filter />
           <ProductOverview />
         </div>
