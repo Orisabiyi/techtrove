@@ -45,10 +45,10 @@ function Footer() {
         <p>Terms of Service</p>
         <p>Cookies Settings</p>
         <div className={styles.socials}>
-          <img src="images/facebook.svg" alt="facebook-icon" />
-          <img src="images/twitter.svg" alt="twitter-icon" />
-          <img src="images/linkedin.svg" alt="linkedin-icon" />
-          <img src="images/instagram.svg" alt="instagram-icon" />
+          <img src="/images/facebook.svg" alt="facebook-icon" />
+          <img src="/images/twitter.svg" alt="twitter-icon" />
+          <img src="/images/linkedin.svg" alt="linkedin-icon" />
+          <img src="/images/instagram.svg" alt="instagram-icon" />
         </div>
       </div>
     </footer>
