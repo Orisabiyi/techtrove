@@ -1,5 +1,11 @@
+import Nav from "../components/Nav";
+
 function CartPage() {
-  return <div>Hello World</div>;
+  return (
+    <section>
+      <Nav />
+    </section>
+  );
 }
 
 export default CartPage;
