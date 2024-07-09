@@ -30,6 +30,7 @@
   transform: translateX(-50%);
 
   width: 100%;
+  z-index: 10;
   list-style: none;
   background: #fff;
   border-radius: 0.5rem;
