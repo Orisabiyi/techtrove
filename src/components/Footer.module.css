@@ -1,0 +1,80 @@
+.footer {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10rem;
+
+  padding: 10rem 6rem;
+  background: var(--primary-color);
+}
+
+.footer > div {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer > div:nth-of-type(1) {
+  justify-content: center;
+  gap: 15rem;
+}
+
+.footer > div:nth-of-type(1) > div:nth-of-type(1) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+
+  flex: 0 0 auto;
+  width: 40%;
+}
+
+.footer > div:nth-of-type(1) > div:nth-of-type(2) {
+  flex: 1;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer form {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.footer input,
+.footer button {
+  padding: 2rem;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.footer input {
+  flex: 1;
+}
+
+.footer button {
+  flex: 0 0 auto;
+  border: 1px solid var(--secondary-color);
+  width: 25%;
+}
+
+.footer ul {
+  list-style: none;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer > div:nth-of-type(2) {
+  gap: 3rem;
+  padding: 3rem 0;
+  border-top: 1px solid var(--secondary-color);
+}

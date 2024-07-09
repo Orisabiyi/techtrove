@@ -40,7 +40,7 @@ function Footer() {
       </div>
 
       <div>
-        <p>&copy {new Date().getFullYear()} TechTrove. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} TechTrove. All rights reserved.</p>
         <p>Privacy Policy</p>
         <p>Terms of Service</p>
         <p>Cookies Settings</p>
