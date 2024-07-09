@@ -17,9 +17,9 @@ function Nav() {
         <input type="search" placeholder="Search Items" />
       </div>
       <div>
-        <img src="images/profile-icon.png" alt="profile-icon" />
-        <img src="images/favourite.svg" alt="favourite-icon" />
-        <img src="images/cart.svg" alt="cart-icon" />
+        <img src="/images/profile-icon.png" alt="profile-icon" />
+        <img src="/images/favourite.svg" alt="favourite-icon" />
+        <img src="/images/cart.svg" alt="cart-icon" />
       </div>
       <button>Contact us</button>
     </nav>
