@@ -24,8 +24,8 @@ function ProductOverview() {
         <h2>All</h2>
 
         <div className={styles.img}>
+          <span>Sort by: most popular</span>
           <img src="images/category-menu.svg" alt="menu-icon" />
-          <span>Shop by category</span>
         </div>
       </div>
       <div>{items}</div>
