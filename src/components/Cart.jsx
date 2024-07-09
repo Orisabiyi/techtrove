@@ -84,6 +84,7 @@ function Cart() {
           <p>Total</p>
           <p>#23,800.00</p>
         </div>
+        <button>Checkout</button>
       </div>
     </>
   );

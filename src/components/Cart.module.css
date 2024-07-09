@@ -60,3 +60,46 @@
 .cart td:nth-of-type(1) {
   justify-content: space-between;
 }
+
+.checkoutSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: rgba(217, 217, 217, 0.5);
+  padding: 4rem 6rem;
+}
+
+.checkoutSection a:link,
+.checkoutSection a:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.checkoutSection div:nth-of-type(1) {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 10rem;
+}
+
+.checkoutSection div:nth-of-type(1) p:nth-of-type(1) {
+  padding: 1.5rem 3rem;
+  border-radius: 1rem;
+  border: 1px solid var(--secondary-color);
+}
+
+.checkoutSection div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.checkoutSection button {
+  width: 40%;
+  flex: 0 0 auto;
+
+  padding: 2rem 0;
+  background: var(--primary-color);
+}
