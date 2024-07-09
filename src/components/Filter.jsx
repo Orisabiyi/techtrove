@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import styles from "./Filter.module.css";
 import { useEffect, useState } from "react";
+import styles from "./Filter.module.css";
 
 function Filter() {
   const [dropDown, setDropDown] = useState(false);

@@ -4,9 +4,12 @@
   justify-content: space-between;
 
   list-style: none;
-  position: relative;
 
   flex: 1;
+}
+
+.list li {
+  position: relative;
 }
 
 .list a {
@@ -22,8 +25,11 @@
 
 .dropdown {
   position: absolute;
-  top: 8rem;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
 
+  width: 100%;
   list-style: none;
   background: #fff;
   border-radius: 0.5rem;
