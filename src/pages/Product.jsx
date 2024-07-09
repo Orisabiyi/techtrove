@@ -3,6 +3,7 @@ import Filter from "../components/Filter";
 import Nav from "../components/Nav";
 import ProductOverview from "../components/ProductOverview";
 import ProductSidebar from "../components/ProductSidebar";
+import Footer from "../components/Footer";
 
 function Product() {
   return (
@@ -15,6 +16,7 @@ function Product() {
           <ProductOverview />
         </div>
       </div>
+      <Footer />
     </section>
   );
 }
