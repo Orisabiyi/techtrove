@@ -1,12 +1,13 @@
-import Cart from "../components/Cart";
+// import Cart from "../components/Cart";
 import Nav from "../components/Nav";
 import Footer from "../components/Footer";
+import { Outlet } from "react-router-dom";
 
 function CartPage() {
   return (
     <section>
       <Nav />
-      <Cart />
+      <Outlet />
       <Footer />
     </section>
   );

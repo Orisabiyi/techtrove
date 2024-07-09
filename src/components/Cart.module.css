@@ -73,7 +73,7 @@
 .checkoutSection a:visited {
   display: inline-block;
   text-decoration: none;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
 }
 
 .checkoutSection div:nth-of-type(1) {

@@ -3,7 +3,7 @@ import styles from "./Cart.module.css";
 
 const cartItems = [
   {
-    productImage: <img src="images/cart/oraimo-cart.svg" alt="oraimo" />,
+    productImage: <img src="/images/cart/oraimo-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
@@ -17,21 +17,21 @@ const cartItems = [
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/ar-vr-cart.svg" alt="oraimo" />,
+    productImage: <img src="/images/cart/ar-vr-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/headset-cart.svg" alt="oraimo" />,
+    productImage: <img src="/images/cart/headset-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/iwatch-cart.svg" alt="oraimo" />,
+    productImage: <img src="/images/cart/iwatch-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
@@ -84,7 +84,9 @@ function Cart() {
           <p>Total</p>
           <p>#23,800.00</p>
         </div>
-        <button>Checkout</button>
+        <button>
+          <NavLink to="checkout">Checkout</NavLink>
+        </button>
       </div>
     </>
   );
