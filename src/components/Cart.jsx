@@ -9,28 +9,28 @@ const cartItems = [
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/oraimo-cart.svg" alt="oraimo" />,
+    productImage: <img src="images/cart/laptop-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/oraimo-cart.svg" alt="oraimo" />,
+    productImage: <img src="images/cart/ar-vr-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/oraimo-cart.svg" alt="oraimo" />,
+    productImage: <img src="images/cart/headset-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/oraimo-cart.svg" alt="oraimo" />,
+    productImage: <img src="images/cart/iwatch-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
@@ -42,38 +42,29 @@ function Cart() {
   return (
     <div className={styles.cart}>
       <h1>Cart</h1>
-      <div>
-        <div className={styles.item}>
-          <h3>Items</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Items</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
           {cartItems.map((item, i) => (
-            <figure key={i}>
-              <div>{item.productImage}</div>
-              <figcaption>{item.productPrice}</figcaption>
-            </figure>
+            <tr key={i}>
+              <td>
+                <span>{item.productImage}</span>
+                <span>{item.productName}</span>
+              </td>
+              <td>{item.productPrice}</td>
+              <td>{item.productQuantity}</td>
+              <td>{item.productTotal}</td>
+            </tr>
           ))}
-        </div>
-
-        <div className={styles.price}>
-          <h3>Price</h3>
-          {cartItems.map((item, i) => (
-            <p key={i}>{item.productPrice}</p>
-          ))}
-        </div>
-
-        <div className={styles.quantity}>
-          <h3>Quantity</h3>
-          {cartItems.map((item, i) => (
-            <p key={i}>{item.productQuantity}</p>
-          ))}
-        </div>
-
-        <div className={styles.total}>
-          <h3>Quantity</h3>
-          {cartItems.map((item, i) => (
-            <p key={i}>{item.productTotal}</p>
-          ))}
-        </div>
-      </div>
+        </tbody>
+      </table>
     </div>
   );
 }

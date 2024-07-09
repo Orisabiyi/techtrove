@@ -1,0 +1,62 @@
+.cart {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6rem;
+
+  padding: 3rem 6rem;
+}
+
+.cart table {
+  width: 100%;
+  text-align: left;
+
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.cart thead {
+  position: relative;
+}
+
+.cart thead,
+.cart tbody {
+  display: flex;
+  align-items: stretch;
+}
+
+.cart tbody {
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.cart tr {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.cart th,
+.cart td {
+  flex: 1;
+}
+
+.cart th:nth-of-type(1),
+.cart td:nth-of-type(1) {
+  flex: 0 0 30%;
+}
+
+.cart tbody td {
+  display: flex;
+  align-items: center;
+}
+
+.cart td:nth-of-type(1) {
+  justify-content: space-between;
+}
