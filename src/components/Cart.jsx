@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styles from "./Cart.module.css";
 
 const cartItems = [
@@ -40,32 +41,51 @@ const cartItems = [
 
 function Cart() {
   return (
-    <div className={styles.cart}>
-      <h1>Cart</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Items</th>
-            <th>Price</th>
-            <th>Quantity</th>
-            <th>Total</th>
-          </tr>
-        </thead>
-        <tbody>
-          {cartItems.map((item, i) => (
-            <tr key={i}>
-              <td>
-                <span>{item.productImage}</span>
-                <span>{item.productName}</span>
-              </td>
-              <td>{item.productPrice}</td>
-              <td>{item.productQuantity}</td>
-              <td>{item.productTotal}</td>
+    <>
+      <div className={styles.cart}>
+        <h1>Cart</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Items</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+          </thead>
+          <tbody>
+            {cartItems.map((item, i) => (
+              <tr key={i}>
+                <td>
+                  <span>{item.productImage}</span>
+                  <span>{item.productName}</span>
+                </td>
+                <td>{item.productPrice}</td>
+                <td>{item.productQuantity}</td>
+                <td>{item.productTotal}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div className={styles.checkoutSection}>
+        <div>
+          <p>Coupon code</p>
+          <p>
+            <NavLink>Return to shopping</NavLink>
+          </p>
+        </div>
+        <div>
+          <p>Discount</p>
+          <p>#3,900.00</p>
+        </div>
+        <div>
+          <p>Total</p>
+          <p>#23,800.00</p>
+        </div>
+      </div>
+    </>
   );
 }
 
