@@ -1,7 +1,7 @@
 import styles from "./ProductOverview.module.css";
 
 function ProductOverview() {
-  const items = Array.from({ length: 9 }, function (_, index) {
+  const items = Array.from({ length: 12 }, function (_, index) {
     return (
       <div key={index} className={styles.product}>
         <div>
