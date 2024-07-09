@@ -85,7 +85,7 @@ function Cart() {
           <p>#23,800.00</p>
         </div>
         <button>
-          <NavLink to="checkout">Checkout</NavLink>
+          <NavLink to="/cart-page/checkout">Checkout</NavLink>
         </button>
       </div>
     </>
