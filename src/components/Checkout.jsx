@@ -3,16 +3,18 @@ import styles from "./Checkout.module.css";
 function Checkout() {
   return (
     <div className={styles.checkOut}>
-      <h2>Billing details</h2>
-      <div>
+      <h1>Checkout</h1>
+
+      <div className={styles.billing}>
+        <h2>Billing details</h2>
         <form action="#" method="post">
           <textarea
             name="Enter address"
             id="address"
             placeholder="Enter address"
           ></textarea>
-          <input type="text" />
-          <input type="Enter address" />
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Enter Address" />
 
           <div>
             <span>Country</span>
@@ -46,20 +48,35 @@ function Checkout() {
           <form action="#">
             <label htmlFor="">Choose payment method</label>
             <select name="" id="">
-              <option value="Debit/Credit card"></option>
+              <option value="Debit/Credit card">Debit/Credit card</option>
             </select>
 
             <label htmlFor="">Card number</label>
-            <input type="number" />
+            <input type="number" placeholder="5553  2871  2972  2973" />
 
             <label htmlFor="">Card name</label>
-            <input type="number" />
+            <input type="text" placeholder="Jasson Simmons" />
 
-            <input
-              type="checkbox"
-              value="I agree to the terms and conditions"
-              id=""
-            />
+            <div className={styles.cardDate}>
+              <div>
+                <label htmlFor="">Expiry Date</label>
+                <input type="number" />
+              </div>
+              <div>
+                <label htmlFor="">CVV</label>
+                <input type="number" />
+              </div>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                value="I agree to the terms and conditions"
+                id="terms"
+              />
+              <label htmlFor="terms">I agree to the terms and conditions</label>
+            </div>
+
             <button type="submit">Pay</button>
           </form>
         </div>
