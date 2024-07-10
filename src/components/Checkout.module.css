@@ -25,7 +25,6 @@
 .billing form {
   display: flex;
   align-items: stretch;
-  justify-content: center;
   flex-direction: column;
   gap: 1.5rem;
 
@@ -141,4 +140,53 @@
 
 .billing .cardDate input {
   width: 100%;
+}
+
+.billing ul {
+  list-style: none;
+  border-radius: 1rem;
+  padding: 3rem;
+  border: 1px solid var(--secondary-color);
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.billing li:not(:last-child) {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  position: relative;
+}
+
+.billing li:not(:last-child)::after {
+  content: "";
+  width: 112%;
+  height: 1px;
+  background: var(--secondary-color);
+
+  position: absolute;
+  left: -6%;
+  top: 140%;
+}
+
+.billing li:last-child {
+  padding: 3rem 0;
+  font-weight: 500;
+
+  align-self: flex-end;
+  display: flex;
+}
+
+.billing li h3 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.billing ul h2 {
+  font-weight: 500;
 }

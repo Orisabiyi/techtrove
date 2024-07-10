@@ -80,6 +80,45 @@ function Checkout() {
             <button type="submit">Pay</button>
           </form>
         </div>
+
+        <ul>
+          <h2>Cart Summary</h2>
+
+          <li>
+            <div>
+              <h3>2x Oraimo airpods</h3>
+              <p>
+                Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
+              </p>
+            </div>
+            <p># 11, 900.00</p>
+          </li>
+
+          <li>
+            <div>
+              <h3>2x Oraimo airpods</h3>
+              <p>
+                Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
+              </p>
+            </div>
+            <p># 11, 900.00</p>
+          </li>
+
+          <li>
+            <div>
+              <h3>2x Oraimo airpods</h3>
+              <p>
+                Lorem ipsum dolor sit amet <br /> consectetur adipisicing elit.
+              </p>
+            </div>
+            <p># 11, 900.00</p>
+          </li>
+
+          <li>
+            <span>Total:</span>
+            <span>#35, 700</span>
+          </li>
+        </ul>
       </div>
     </div>
   );
