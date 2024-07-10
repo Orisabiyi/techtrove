@@ -10,13 +10,13 @@ function Feature() {
 
       <ul>
         <li>
-          <img src="images/brand-vivo.svg" alt="vivo-logo" />
+          <img src="/images/brand-vivo.svg" alt="vivo-logo" />
         </li>
         <li>
-          <img src="images/brand-apple.svg" alt="apple-logo" />
+          <img src="/images/brand-apple.svg" alt="apple-logo" />
         </li>
         <li>
-          <img src="images/brand-samsung.svg" alt="samsung-logo" />
+          <img src="/images/brand-samsung.svg" alt="samsung-logo" />
         </li>
       </ul>
     </section>
