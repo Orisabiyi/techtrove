@@ -10,7 +10,7 @@ const cartItems = [
     productTotal: "#23, 800.00",
   },
   {
-    productImage: <img src="images/cart/laptop-cart.svg" alt="oraimo" />,
+    productImage: <img src="/images/cart/laptop-cart.svg" alt="oraimo" />,
     productName: "oraimo airpods",
     productPrice: "#11, 900",
     productQuantity: 2,
